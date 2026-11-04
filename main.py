@@ -4,10 +4,10 @@ import pyttsx3
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
+
 def speak(text):
-    engine.say("text")
+    engine.say(text)
     engine.runAndWait()
 
-
 if __name__ == "__main__":
-      speak("hey ABDUL how may i help you")
+    speak("Hey Abdul, how may I help you?")
